@@ -1,6 +1,6 @@
 # My-Jenkins-SharedLibrary
 
-
+````
 @Library ('My-Jenkins-SharedLibrary')_
 pipeline {
     agent any 
@@ -31,4 +31,20 @@ pipeline {
 }
 
 
-# 
+# System configuration
+
+Global Pipeline Libraries
+Library Name : My-Jenkins-SharedLibrary
+Default version : master
+
+Retrieval method
+
+Modern SCM
+Source Code Management : Git
+Project Repository : https://github.com/naresh9919/My-Jenkins-SharedLibrary.git
+Credentials
+
+Filter by name (with wildcards)
+Include : master
+apply and save
+
